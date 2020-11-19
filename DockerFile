@@ -1,6 +1,6 @@
 FROM centos:latest
 
-LABEL MAINTAINER "ClementWong"
+LABEL MAINTAINER "Clement"
 
 RUN yum -y install httpd
 
