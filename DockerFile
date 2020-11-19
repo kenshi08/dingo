@@ -4,7 +4,7 @@ LABEL MAINTAINER "Clement"
 
 RUN yum -y install httpd
 
-COPY /home/jenkins/dingo/* /var/www/html/
+COPY /src/* /var/www/html/
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
